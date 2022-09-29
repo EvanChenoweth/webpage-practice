@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    background-color: rgba(245,245,245,1);
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url('circular-std-medium-500.ttf') format('truetype');
+}
+
+#top-ribbon {
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#top-ribbon > img {
+    scale: 300%;
+    transform: translate(0%, 22%);
+}
+
+#first-container {
+    text-align: center;
+    background-color: rgb(103,82,169);
+    width: 100%;
+    height: 45vh;
+    transform: translate(0px, -20px);
+    overflow: hidden;
+}
+
+#welcome {
+    color: rgb(245,245,245);
+    font-family: "Circular Std";
+    font-style: italic;
+    padding-top: 5px;
+}
+
+small {
+    font-size: 18px;
+    color: rgb(245,245,245);
+}
+
+#textbox {
+    margin: 0 auto;
+    display: block;
+    height: 20%;
+    width: 30%;
+    transform: translate(0vh, 60%);
+}
+
+#firstimg {
+    transform: translate(-35%, -50%);
+    scale: 100%;
+}
+
+h3 {
+    font-family: "Circular Std";
+    color: rgb(245,245,245)
+}
